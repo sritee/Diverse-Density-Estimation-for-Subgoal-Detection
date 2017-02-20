@@ -1,3 +1,5 @@
+For theoretical discussion, visit : https://sridhartee.blogspot.in/2016/09/diverse-density-estimation-for.html
+
 1) In order to obtain first visit frequency plots- Run firstvisitfrequency.m
 
 2) Obtain30trajectories.m Will simulate 30 runs, and will give you a Cell of size 30x50, where Pbag{2,3} is a matrix which contains 3rd episode trajectories from the 2nd trial. Use this Pbag obtained in function plotdd.m. Example plotdd(Pbag(1:5),1:25) will give you smooth plots over 5 trails of the log dd after 25 episodes.
